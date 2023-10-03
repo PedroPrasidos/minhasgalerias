@@ -1,7 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
-    font-size: 2rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-a{
-    margin-right: 30px;
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #244757;
+}
+
+.texto{
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.card_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_container > div{
+    height: 300px;
+    width: 270px;
+    margin-top: 80px;
+    border-radius: 10px;
+    background-color: #cde6f5;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.603);
+}
+
+.card_container > div img{
+    border-radius: 10px;
+    margin: 10px 0 0 10px;
+    max-width: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card1{
+    margin-left: 70px;
+}
+.card3{
+    margin-right: 70px;
+}
+
+.a_do_botao{
+    text-decoration: none;
+}
+
+.botao{
+    padding: 5px 5px;
+    background: #3e97d3;
+    color: #f8f9fa;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.botao:hover{
+    background: rgb(84, 202, 248);
+    color: black;
+    transition: all .5s ease;
+}
+
+.card_text {
+    text-align: center;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    margin-top: 30px; /* Ajuste a margem conforme necessário */
 }
